@@ -1,4 +1,4 @@
-% gauss-seidel with successive over-relaxation
+% gauss-seidel with successive over-relaxation, which blows up near the Neumann boundaries for small grid sizes
 function [w] = gauss_seidel_SOR(n,nu)
 
 h = 1/n;   % grid coarseness

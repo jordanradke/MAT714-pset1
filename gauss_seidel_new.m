@@ -1,4 +1,4 @@
-%%% gauss-seidel algorithm
+%%% gauss-seidel algorithm for new boundary data f(y) = sgn(cos(2*pi*y))
 function [w] = gauss_seidel_new(nu,u0, source)
 
 n = length(u0)-1;
